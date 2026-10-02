@@ -2,42 +2,42 @@
 
 **EmergentSoft · Sovereign Orchestration Infrastructure**
 
-## What it is
+## Status
 
-AetherOS Kernel is the orchestration-kernel component of EmergentSoft's sovereign infrastructure stack. It is intended to coordinate communication between autonomous agents and distributed infrastructure nodes.
+**Architecture / kernel concept.**
 
-## Business problem
+AetherOS Kernel is the orchestration-kernel concept within EmergentSoft's infrastructure stack. This repository currently documents the intended architecture rather than a completed production kernel.
+
+## Purpose
 
 Enterprise autonomy requires an orchestration layer capable of coordinating distributed execution while preserving organizational control over infrastructure and data.
 
-## Core capabilities
+## Target capabilities
 
 - Autonomous orchestration
 - Agent-to-node communication
 - Distributed infrastructure coordination
 - Sovereignty-oriented execution model
 
+These are target capabilities, not claims that every capability is currently implemented in this repository.
+
 ## Architecture position
 
 `Enterprise Infrastructure → M8s → Mates → AetherOS → Distributed Execution`
 
-AetherOS is an infrastructure component; it does not replace M8s governance or the specialized Mates themselves.
+AetherOS is intended as an infrastructure component; it does not replace M8s governance or the specialized Mates.
 
-## Evidence & status
+## Evidence boundary
 
-Implementation status and deployment claims must be established from repository evidence. Production availability, performance figures, or external validation should only be published when independently verifiable.
-
-## Security & IP
-
-See [`SECURITY.md`](SECURITY.md) and [`LICENSE`](LICENSE). Third-party components remain subject to their respective licenses.
-
-## Documentation
-
-Repository documentation is the technical source of truth for this component.
+Implementation status, performance, production availability and external validation must be established from repository evidence or independently verifiable sources.
 
 ## Commercial role
 
-AetherOS is positioned as an infrastructure component for enterprise deployments requiring governed autonomous orchestration and distributed execution.
+AetherOS is positioned as a future infrastructure component for enterprise deployments requiring governed autonomous orchestration and distributed execution.
+
+## Security & IP
+
+See `SECURITY.md` and `LICENSE`.
 
 ## Owner
 
